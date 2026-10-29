@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "function_groups": 52,
+  "requests": 32,
+  "compiler_warning_count": 16,
+  "global_vm_packages_unchanged": true,
+  "new_runtime_files_unchanged_after_tests": true,
+  "active_runtime_removal_refused": true,
+  "installations_a_and_b_removed": true,
+  "compiler_errors": [],
+  "date": "2026-10-27",
+  "classification": "Historical private candidate; selected aggregate fields only",
+  "not_a_test_of_this_public_recipe": true,
+  "limitations": [
+    "Original full reports are not published because they contain deployment-specific data.",
+    "The public consolidated recipe changes paths, stage ordering and extension rebuilds.",
+    "No claim of complete vulnerability coverage or bit-for-bit reproducibility."
+  ]
+}

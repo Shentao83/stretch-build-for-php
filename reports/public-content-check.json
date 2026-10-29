@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "status": "passed",
+  "findings": 0,
+  "scope": "Exact reviewed upload filenames and UTF-8 contents, including the source ZIP",
+  "checks": [
+    "Excluded organization and identity references",
+    "Email addresses",
+    "Private and SSH keys",
+    "Known credential and token patterns",
+    "Credential-like assignments",
+    "Private IP addresses and personal filesystem paths",
+    "Manifest hashes and ZIP inventory equality"
+  ],
+  "limitations": [
+    "A reviewed snapshot, not a guarantee about arbitrary future edits or runtime output",
+    "GitHub-generated account and commit metadata are outside the file-content check",
+    "Generated runtimes and downloaded upstream materials are excluded from the upload"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "helper_tests": {
+    "scope": "Lock validation and archive extraction boundaries",
+    "passed": 4
+  },
+  "release": "0.1.0",
+  "scope": "Fresh work directory in an existing disposable Debian 9 VM with prepared prerequisites",
+  "build": {
+    "source_sha256": "924846abf93bc613815c55dd3f5809377813ac62a9ec4eb3778675b82a27b927",
+    "patch_sha256": "5fe57ca6ee96d59b36c6e0ca842843c50884f177bef1e85234cf669b577f5e48",
+    "fpm_sha256": "20bb32b1f6b129d431ea134a373ec3f8f4bbe6b1c77bf204642e0ef1d84386a1",
+    "status": "built-cli-smoke-passed",
+    "jobs": 2,
+    "elapsed_seconds": 528.7,
+    "global_packages_unchanged": true,
+    "php_sha256": "163844b14e94443806190f1f9805a017e7d5fe458034c8f7f63c577fbd66ef6d"
+  },
+  "upstream_patch_files_checked": 17,
+  "not_run": [
+    "Complete upstream test suite",
+    "Exploit regression tests",
+    "Application qualification",
+    "Pristine-VM bootstrap",
+    "Binary redistribution qualification"
+  ],
+  "locked_inputs_verified": 16,
+  "status": "passed",
+  "platform": {
+    "gcc": "6.3.0",
+    "python": "3.5.3",
+    "version": "9.13",
+    "distribution": "Debian",
+    "architecture": "x86_64"
+  },
+  "package_inventory_sha256": "d93c1ea082ecdd3c69156a6cad5b04acdb3fe54c0d0bb6bf72eb5fb7032d78da",
+  "date": "2026-10-29",
+  "smoke": {
+    "fpm": {
+      "upload_progress": "0",
+      "required_extension_count": 43,
+      "ok": true,
+      "php": "7.4.33",
+      "libxml": "20909",
+      "openssl": "OpenSSL 1.1.0l  10 Sep 2019",
+      "icu": "65.1",
+      "sapi": "fpm-fcgi",
+      "pcre": "10.35 2020-05-09"
+    },
+    "scope": "Synthetic functional smoke tests; not an exploit or application test",
+    "status": "passed",
+    "cli": {
+      "upload_progress": "0",
+      "required_extension_count": 43,
+      "ok": true,
+      "php": "7.4.33",
+      "libxml": "20909",
+      "openssl": "OpenSSL 1.1.0l  10 Sep 2019",
+      "icu": "65.1",
+      "sapi": "cli",
+      "pcre": "10.35 2020-05-09"
+    }
+  }
+}
