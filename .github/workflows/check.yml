@@ -1,0 +1,17 @@
+name: Recipe checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  source-checks:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check recipe integrity and helpers
+        run: |
+          python3 scripts/verify_repository.py
+          python3 -m unittest discover -s tests -v
+      - name: Fetch locked inputs
+        run: python3 scripts/fetch.py
+      - name: Verify upstream patch against the original release
+        run: python3 scripts/check_patch.py --git git
