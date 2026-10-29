@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "purpose": "Historical compatibility inputs; not current security-maintained versions",
+  "verification": "Hashes transcribed from locally verified historical inputs. See docs/PROVENANCE.md.",
+  "files": [
+    {
+      "file": "php-7.4.33.tar.xz",
+      "url": "https://www.php.net/distributions/php-7.4.33.tar.xz",
+      "sha256": "924846abf93bc613815c55dd3f5809377813ac62a9ec4eb3778675b82a27b927"
+    },
+    {
+      "file": "libzip-1.7.3.tar.xz",
+      "url": "https://libzip.org/download/libzip-1.7.3.tar.xz",
+      "sha256": "a60473ffdb7b4260c08bfa19c2ccea0438edac11193c3afbbb1f17fbcf6c6132"
+    },
+    {
+      "file": "libsodium-1.0.18.tar.gz",
+      "url": "https://download.libsodium.org/libsodium/releases/old/libsodium-1.0.18.tar.gz",
+      "sha256": "6f504490b342a4f8a4c4a02fc9b866cbef8622d5df4e5452b46be121e46636c1"
+    },
+    {
+      "file": "argon2-20190702.tar.gz",
+      "url": "https://codeload.github.com/P-H-C/phc-winner-argon2/tar.gz/refs/tags/20190702",
+      "sha256": "daf972a89577f8772602bf2eb38b6a3dd3d922bf5724d45e7f9589b5e830442c"
+    },
+    {
+      "file": "igbinary-3.2.1.tgz",
+      "url": "https://pecl.php.net/get/igbinary-3.2.1.tgz",
+      "sha256": "601620cffd3b3e559620099c0569b8c4247f029ec18adc0206bf26f8e35753db"
+    },
+    {
+      "file": "msgpack-2.1.2.tgz",
+      "url": "https://pecl.php.net/get/msgpack-2.1.2.tgz",
+      "sha256": "912ff4d33f323ea7cb04569df5ae23c09ce614412a65c39c2ca11f52802abe82"
+    },
+    {
+      "file": "imagick-3.4.4.tgz",
+      "url": "https://pecl.php.net/get/imagick-3.4.4.tgz",
+      "sha256": "8dd5aa16465c218651fc8993e1faecd982e6a597870fd4b937e9ece02d567077"
+    },
+    {
+      "file": "memcache-4.0.5.2.tgz",
+      "url": "https://pecl.php.net/get/memcache-4.0.5.2.tgz",
+      "sha256": "7b7667813baea003671f174bbec849e43ff235a8ea4ab7e36c3a0380c2a9ed63"
+    },
+    {
+      "file": "memcached-3.1.5.tgz",
+      "url": "https://pecl.php.net/get/memcached-3.1.5.tgz",
+      "sha256": "b288e45f839593e16c4d8508b241de51a86df4f7322153e6becb9e1c819021fd"
+    },
+    {
+      "file": "xdebug-3.0.3.tgz",
+      "url": "https://pecl.php.net/get/xdebug-3.0.3.tgz",
+      "sha256": "e7265a81518e397f972dc922e746d1a484537177ff4895435167d109e2932432"
+    },
+    {
+      "file": "icu4c-65_1-src.tgz",
+      "url": "https://github.com/unicode-org/icu/releases/download/release-65-1/icu4c-65_1-src.tgz",
+      "sha256": "53e37466b3d6d6d01ead029e3567d873a43a5d1c668ed2278e253b683136d948"
+    },
+    {
+      "file": "libxml2-2.9.9.tar.xz",
+      "url": "https://download.gnome.org/sources/libxml2/2.9/libxml2-2.9.9.tar.xz",
+      "sha256": "58a5c05a2951f8b47656b676ce1017921a29f6b1419c45e3baed0d6435ba03f5"
+    },
+    {
+      "file": "libssl1.1_1.1.0l-1~deb9u3_amd64.deb",
+      "url": "https://snapshot.debian.org/file/7be5456060c757da1da4bc2023b3ca8b76e9b77c",
+      "sha256": "75534acbd77016a5e66eb5a6cf0d64ccf9173b373ce1785a7c0d4577fa5b0c34",
+      "package": "libssl1.1",
+      "version": "1.1.0l-1~deb9u3",
+      "architecture": "amd64"
+    },
+    {
+      "file": "libssl-dev_1.1.0l-1~deb9u3_amd64.deb",
+      "url": "https://snapshot.debian.org/file/8bd36d5e6434058dbbc97b4a8e217d7b94af8cd3",
+      "sha256": "efc125b918c2a7274e695367312468aac9709dcd3ae0bb8290a51082d7a2e3ec",
+      "package": "libssl-dev",
+      "version": "1.1.0l-1~deb9u3",
+      "architecture": "amd64"
+    },
+    {
+      "file": "libssl1.0.2_1.0.2u-1~deb9u4_amd64.deb",
+      "url": "https://snapshot.debian.org/file/7be10c2fc417d67193480c266e2fe0d11cee37b2",
+      "sha256": "f9bb273105ab4264e261c64fd3b155eea76904517be04c1676a77e5e0b737465",
+      "package": "libssl1.0.2",
+      "version": "1.0.2u-1~deb9u4",
+      "architecture": "amd64"
+    },
+    {
+      "file": "php74-bailout.patch",
+      "url": "https://github.com/php/php-src/commit/712e60f9edfd03f0960fc4fc3c2c375f42b90aa2.patch",
+      "sha256": "5fe57ca6ee96d59b36c6e0ca842843c50884f177bef1e85234cf669b577f5e48"
+    }
+  ]
+}
