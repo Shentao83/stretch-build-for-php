@@ -1,0 +1,19 @@
+[global]
+pid = "@RUNTIME@/fpm.pid"
+error_log = "@RUNTIME@/fpm-error.log"
+daemonize = no
+
+[smoke]
+listen = "@RUNTIME@/fpm.sock"
+listen.mode = 0600
+pm = static
+pm.max_children = 1
+catch_workers_output = yes
+clear_env = yes
+chdir = /
+security.limit_extensions = .php
+php_admin_flag[session.upload_progress.enabled] = off
+php_admin_value[session.save_path] = "@RUNTIME@"
+php_admin_value[upload_tmp_dir] = "@RUNTIME@"
+php_admin_value[sys_temp_dir] = "@RUNTIME@"
+php_admin_value[error_log] = "@RUNTIME@/php-error.log"
